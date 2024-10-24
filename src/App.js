@@ -9,8 +9,8 @@ import Setting from './pages/Setting';
 import Navbar from './components/Navbar';
 
 const App = () => {
-  const [sidebarToggle, setSidebarToggle] = useState(false);
 
+  const [sidebarToggle, setSidebarToggle] = useState(false);
 
   return (
     <Router>

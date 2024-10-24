@@ -3,7 +3,9 @@ import { Bar } from 'react-chartjs-2';
 import { data as dashboardData } from '../config/data';
 
 const BarChart = () => {
+
     const { analytics } = dashboardData;
+    
     // Bar Chart Data for Sales
     const barData = {
         labels: analytics.salesData.topProducts.map(product => product.productName),

@@ -4,6 +4,7 @@ import { Pie } from 'react-chartjs-2';
 import 'chart.js/auto'; // Import Chart.js
 
 const PieChart = ({ data }) => {
+  
   // Prepare data for the pie chart from the user demographics
   const ageGroupData = data.userDemographics.ageGroups;
 

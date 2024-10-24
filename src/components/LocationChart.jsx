@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 
 
 const LocationChart = ({ data }) => {
+  
   useEffect(() => {
     const ctx = document.getElementById('LocationChart').getContext('2d');
 

@@ -7,8 +7,8 @@ import LineChart from '../components/LineChart';
 import DoughnutChart from '../components/DoughnutChart';
 
 function Dashboard() {
-  const { dashboard } = dashboardData;
 
+  const { dashboard } = dashboardData;
 
   return (
     <main className="p-6">

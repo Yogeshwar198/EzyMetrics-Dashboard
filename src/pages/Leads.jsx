@@ -2,6 +2,7 @@ import React from 'react';
 import { data } from '../config/data'; 
 
 function Leads() {
+  
   const { leads } = data; // Extract leads from the data
 
   return (

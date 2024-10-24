@@ -3,7 +3,9 @@ import { Doughnut } from 'react-chartjs-2';
 import { data as dashboardData } from '../config/data';
 
 const DoughnutChart = () => {
+
     const { analytics } = dashboardData;
+    
     // Doughnut Chart Data for User Demographics (Age Groups)
     const doughnutData = {
         labels: Object.keys(analytics.userDemographics.ageGroups),

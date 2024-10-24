@@ -3,8 +3,7 @@ import { FaBars, FaBell, FaSearch, FaUserCircle } from 'react-icons/fa'
 
 
 const Navbar = ({ sidebarToggle, setSidebarToggle }) => {
-    
-    
+      
 
     return (
         <nav className='bg-dark px-4 py-3 flex justify-between'>

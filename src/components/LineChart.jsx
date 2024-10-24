@@ -3,6 +3,7 @@ import { Line } from 'react-chartjs-2';
 import { data as dashboardData } from '../config/data';
 
 const LineChart = () => {
+    
     const { analytics } = dashboardData;
 
     // Line Chart Data for Website Traffic

@@ -9,9 +9,6 @@ import { NavLink } from 'react-router-dom'
 const Sidebar = ({ sidebarToggle }) => {
 
 
-
-
-
     return (
         <div className={`${sidebarToggle ? "hidden" : "block"} w-64 bg-dark fixed h-full px-4 py-2`} >
             <div className='my-2 mb-4'>

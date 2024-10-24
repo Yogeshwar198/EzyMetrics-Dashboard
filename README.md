@@ -52,5 +52,8 @@ http://localhost:3000
 - **Tailwind CSS or CSS Modules:** (Optional) For styling.
 - **Chart.js or Recharts:** (Optional) For data visualization.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Contact
-[Yogeshwar Singh] - [yogeshwaredu198@gmail.com]
+Yogeshwar Singh - yogeshwaredu198@gmail.com
